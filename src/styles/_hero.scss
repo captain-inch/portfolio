@@ -1,0 +1,22 @@
+.arrow {
+  // position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+  bottom: 0;
+  margin-bottom: 5vh;
+  width: 70px;
+  height: 70px;
+}
+#arrowDiv {
+  opacity: 0;
+  border-radius: 100%;
+  background-color: white;
+}
+#arrow {
+  z-index: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit; /* no underline */
+}

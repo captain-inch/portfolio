@@ -1,0 +1,38 @@
+$themecolor1: #6f53b1;
+$themecolor2: #3db481;
+$themecolor3: #278fb4;
+$themecolor4: #23d591;
+
+$themecolortransparent1: #918d8d66;
+$themecolortransparent2: #615959cc;
+
+$textcolor1: #f5eeee;
+$textcolor2: #cabec0;
+$textcoloremphathize: #2b257c;
+
+.tc1 {
+  color: $textcolor1;
+}
+
+.tc2 {
+  color: $textcolor2;
+}
+
+.tcem {
+  // emphathize color
+  color: $textcoloremphathize;
+}
+
+.bg1 {
+  background-color: $themecolor1;
+}
+.bg2 {
+  background-color: $themecolor2;
+}
+
+.bgt1 {
+  background-color: $themecolortransparent1;
+}
+.bgt2 {
+  background-color: $themecolortransparent2;
+}
