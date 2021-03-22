@@ -15,7 +15,7 @@ import Projects from "./components/projects/projects.jsx";
 import Contact from "./components/contact/contact.jsx";
 
 // ====   >   FILES
-import { links } from "./components/navbar/navbar_content.jsx";
+import { links } from "./data/en/navbar.jsx";
 gsap.registerPlugin(ScrollTrigger);
 
 export default class App extends Component {

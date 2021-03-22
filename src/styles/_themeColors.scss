@@ -8,7 +8,9 @@ $themecolortransparent2: #615959cc;
 
 $textcolor1: #f5eeee;
 $textcolor2: #cabec0;
-$textcoloremphathize: #2b257c;
+$textcoloremphathize1: #2b257c;
+$textcoloremphathize2: #3b2f9c;
+$textcoloremphathize3: #4b36ae;
 
 .tc1 {
   color: $textcolor1;
@@ -20,7 +22,7 @@ $textcoloremphathize: #2b257c;
 
 .tcem {
   // emphathize color
-  color: $textcoloremphathize;
+  color: $textcoloremphathize1;
 }
 
 .bg1 {

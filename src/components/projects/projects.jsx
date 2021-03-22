@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Project from "./project.jsx";
-import { dataProjects } from "./projectsdata.jsx";
+import { dataProjects } from "../../data/en/projects.jsx";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 export default class Projects extends Component {
   componentDidMount() {}

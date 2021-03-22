@@ -1,6 +1,6 @@
 import im1 from "../../media/img/projects/project1.gif";
-import im2 from "../../media/img/projects/project2.gif";
 import im3 from "../../media/img/projects/project3.gif";
+import im2 from "../../media/img/projects/project2.gif";
 
 export const dataProjects = [
   {
@@ -19,7 +19,7 @@ export const dataProjects = [
     img: im1,
   },
   {
-    name: "Tag Generator",
+    name: "Wineyard",
     href: "https://captain-inch.github.io/background-generator/",
     text: "First project",
     perks: ["Javascript", ""],
