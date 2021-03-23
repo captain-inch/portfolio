@@ -5,7 +5,7 @@ export default class Projects extends Component {
   showPerks() {
     return this.props.perks.reduce((acc, value) => {
       acc.push(
-        <div className="ma2 i">
+        <div key={acc.length} className="ma2 i">
           <TiTickOutline /> {value}
         </div>
       );
@@ -14,7 +14,7 @@ export default class Projects extends Component {
   }
   render() {
     return (
-      <div id={"Project_" + this.props.key} className="tc1 mb3 mb0-ns">
+      <div id={"Project_" + this.props.id} className="tc1 mb3 mb0-ns">
         <a href={this.props.href} className="pointer">
           <h2>{this.props.name}</h2>
         </a>
@@ -28,9 +28,9 @@ export default class Projects extends Component {
             className="flex flex-column justify-center pointer ma3"
           >
             <img src={this.props.img} alt={this.props.name} />
-            <a className="mt2 tc b f4 f3-l link dim br-pill ba bw2 ph3 pv2 mb2 dib tcem">
-              Try it yourself
-            </a>
+            <span className="mt2 tc b f4 f3-l link dim br-pill ba bw2 ph3 pv2 mb2 dib tcem">
+              {this.props.button}
+            </span>
           </a>
         </div>
       </div>

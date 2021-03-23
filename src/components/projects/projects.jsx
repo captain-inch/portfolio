@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Project from "./project.jsx";
-import { dataProjects } from "../../data/en/projects.jsx";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 export default class Projects extends Component {
   componentDidMount() {}
@@ -8,18 +7,20 @@ export default class Projects extends Component {
     return (
       <div id="Projects">
         <h1>
-          <AiOutlineFundProjectionScreen />{" "}
-          <span className="pa3">Projects</span>
+          <AiOutlineFundProjectionScreen /> {this.props.title}
+          <span className="pa3"></span>
         </h1>
-        {dataProjects.reduce((acc, val) => {
+        {this.props.projects.reduce((acc, val) => {
           acc.push(
             <Project
               key={acc.length}
+              id={acc.length}
               name={val.name}
               text={val.text}
               href={val.href}
               img={val.img}
               perks={val.perks}
+              button={this.props.button}
             />
           );
           return acc;
