@@ -16,6 +16,16 @@
   z-index: 1;
 }
 
+.imgHolder {
+  position: relative;
+  img {
+    position: absolute;
+
+    bottom: 68px;
+    // object-fit: fill;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: inherit; /* no underline */

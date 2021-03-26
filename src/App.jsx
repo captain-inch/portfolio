@@ -113,7 +113,6 @@ export default class App extends Component {
       ScrollTrigger.create({
         trigger: "#Anchor_" + name,
         start: "50% 50%",
-        markers: true,
         end: "50% 50%",
         onEnter: (trigger) => {
           console.log("Entering ", trigger.vars.trigger);
